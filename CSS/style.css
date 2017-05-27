@@ -1,0 +1,193 @@
+body {
+	margin: 0px;
+}
+
+a {
+	display: inline-block;
+}
+
+header {
+	text-align: center;
+	color: white;
+	height: 500px;
+	background-color: lightgreen;
+	background-image: url(../images/header-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+}
+/* cover: get the image to stretch out */
+/* ../out one folder, ../../ out 2 folder */
+/* padding push inside, margin push out */
+
+header p {
+	font-style: italic;
+}
+/* If Google Font is down, it will revert to default font */
+/* header stuff */
+
+header h1 {
+	color: #c0e360;
+	font-size: 60px; 
+	text-transform: uppercase;
+	letter-spacing: 10px
+}
+
+header a {
+	color: white;
+	font-family: 'Montserrat' , sans-serif;
+	border: 5px solid white;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+header a:hover {
+	background: white;
+	color: black; 
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat' , sans-serif;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Montserrat' , sans-serif;
+	margin-right: 15px
+}
+
+.logo{
+	color: red;
+	margin-right: 30px;
+}
+/* command-? to hide and uncode code */
+
+.categories {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.categories ul li {
+	width: 30%; 
+	float: left;
+	list-style: none;
+	padding: 0 2%;
+}
+
+.categories img {
+	max-width: 100% 
+}
+
+.quote {
+	clear: both;
+}
+
+.categories a {
+	color: black;
+	font-family: 'Montserrat' , sans-serif;
+	border: 5px solid black;
+	padding: 10px 20px;
+	text-decoration: none;
+	display:inline-block;
+}
+
+.categories a:hover {
+	background: black;
+	color: white; 
+}
+
+
+.quote {
+	text-align: center;
+	color: white;
+	height: 500px;
+	background-color: lightgreen;
+	background-image: url(../images/quote-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+}
+/* cover: get the image to stretch out */
+/* ../out one folder, ../../ out 2 folder */
+/* padding push inside, margin push out */
+
+.quote p {
+	font-style: italic;
+}
+/* If Google Font is down, it will revert to default font */
+/* header stuff */
+
+.quote h1 {
+	color: #c0e360;
+	font-size: 60px; 
+	text-transform: uppercase;
+	letter-spacing: 10px
+}
+
+.quote a {
+	color: white;
+	font-family: 'Montserrat' , sans-serif;
+	border: 5px solid white;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+.quote a:hover {
+	background: white;
+	color: black; 
+
+featured {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.featured ul li {
+	width: 21%; 
+	float: left;
+	list-style: none;
+	padding: 0 2%;
+}
+
+.featured img {
+	max-width: 100% 
+}
+
+.footer {
+	clear: both;
+}
+
+.featured a {
+	color: black;
+	font-family: 'Montserrat' , sans-serif;
+	border: 5px solid black;
+	padding: 10px 20px;
+	text-decoration: none;
+	display:inline-block;
+}
+
+.categories a:hover {
+	background: black;
+	color: white; 
+}
+
+
+.footer {
+	clear: both;
+	background-color: black;
+	text-align: centre;
+	color: white;
+	font-family: 'Montserrat' , sans-serif;
+	padding: 20px 0;
+}
+
+footer img {
+	width: 50px;
+	height: auto;
+}
